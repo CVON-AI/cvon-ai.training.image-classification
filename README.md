@@ -52,5 +52,5 @@ you may install the template as described below.
 # Activate the enviroment:
 source activate cookiecutter
 
-cookiecutter 
+cookiecutter https://github.com/CVON-AI/cvon-ai.training.image-classification
 ```
