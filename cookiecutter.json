@@ -1,0 +1,19 @@
+{
+    "project_name": "My Image Classification Project",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "description": "Please enter a meaningfull description of your project",
+    "author_name": "Jan Walter Benjamins",
+    "domain_name": "example.com",
+    "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@{{ cookiecutter.domain_name }}",
+    "version": "0.1.0",
+    "open_source_license": [
+      "MIT",
+      "BSD",
+      "GPLv3",
+      "Apache Software License 2.0",
+      "Not open source"
+    ],
+    "timezone": "UTC",
+    "keep_local_envs_in_vcs": "y",
+    "debug": "n"
+  }
